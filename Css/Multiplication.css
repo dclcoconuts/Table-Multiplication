@@ -1,0 +1,48 @@
+*{
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding : 0;
+}
+
+main {
+    width: 360px;
+    height: 200px;
+    background-image: url(../Img/tableau.jpg);
+}
+
+h1{
+    padding-top : 20px;
+    text-align: center;
+    font-size : 1.2em; 
+    color: white;  
+}
+
+#form{
+    padding-top: 30px; 
+    margin-left: 60px;
+}
+
+#select{
+    height: 30px;
+    width: 150px;
+    font-size : 1.2em;
+    box-shadow: 2px 2px 0px #aaa; 
+}
+
+#choix{
+    font-size : 1em;
+}
+
+#bouton{
+    height: 30px;
+    width: 70px;
+    margin-left : 200px;
+    box-shadow: 2px 2px 0px #aaa; 
+}
+
+p {
+    width: 360px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
