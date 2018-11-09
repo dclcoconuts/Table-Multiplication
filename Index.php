@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Css\Multiplication.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
-    <title>Lexique Balise</title>
+    <title>Table de multiplication</title>
 </head>
 
 <!-- mise en place d'un log d'erreur -->
@@ -25,12 +25,19 @@ error_reporting(E_ALL & ~E_NOTICE);
 
 <body>
     <header>
-
+        <div id="menu">
+            <ul id="onglets">
+                <li class="active"><a href="Index.php"> Révision </a></li>
+                <li><a href="Checkbox.php"> Checkbox </a></li>
+                <li><a href="Interrogation.php"> Interrogation </a></li>
+                <li><a href="Revision.php"> Super révision </a></li>
+            </ul>
+        </div>
     </header>
         
     <main>
         <h1>Les tables de multiplication</h1>
-            <form id="form" method="GET">
+            <form id="form1" method="GET">
             <select id="select" name="tables">
                 <option id="choix" value="table02" <?php if($_GET['tables']=="table02") echo 'selected' ?>>Table de 2</option>
                 <option id="choix" value="table03" <?php if($_GET['tables']=="table03") echo 'selected' ?>>Table de 3</option>
@@ -63,7 +70,7 @@ error_reporting(E_ALL & ~E_NOTICE);
             }
         } 
     ?>        
-   </div>
+    </div>
 
     <footer>
  
