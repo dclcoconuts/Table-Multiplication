@@ -2,8 +2,12 @@
     function affiche_menu()
     {
         // tableaux contenant les liens d'accès et le texte à afficher
-        $tab_menu_lien = array( "Index.php", "Checkbox.php", "Interrogation.php", "Revision.php");
-        $tab_menu_texte = array( "Révision", "Checkbox", "Interrogation", "Super révision");
+        // Futur lien pour extension Super révision
+        // $tab_menu_lien = array( "Index.php", "Checkbox.php", "Interrogation.php", "Revision.php");
+        // $tab_menu_texte = array( "Révision", "Checkbox", "Interrogation", "Super révision");
+
+        $tab_menu_lien = array( "Index.php", "Checkbox.php", "Interrogation.php");
+        $tab_menu_texte = array( "Révision", "Checkbox", "Interrogation");
         
         // informations sur la page
         $info = pathinfo($_SERVER['PHP_SELF']);

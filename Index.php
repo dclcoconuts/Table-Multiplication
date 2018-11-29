@@ -23,16 +23,23 @@ error_reporting(E_ALL & ~E_NOTICE);
 // error_log("Ecrit un message personnalisé dans le fichier log", 0);
 ?> 
 
+
+<?php
+include 'Menu.php';
+$menu = affiche_menu();
+?>
+
 <body>
     <header>
-        <div id="menu">
+        <!-- <div id="menu">
             <ul id="onglets">
                 <li class="active"><a href="Index.php"> Révision </a></li>
                 <li><a href="Checkbox.php"> Checkbox </a></li>
                 <li><a href="Interrogation.php"> Interrogation </a></li>
                 <li><a href="Revision.php"> Super révision </a></li>
             </ul>
-        </div>
+        </div> -->
+        <?php echo $menu; ?>
     </header>
         
     <main>

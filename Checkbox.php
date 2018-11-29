@@ -45,15 +45,15 @@ $menu = affiche_menu();
     <main>
     <h1>Les tables de multiplication</h1>
             <form id="form" method="GET">
-                <input type="checkbox" name="tables[]" value="table02" > Table de 2<br>
-                <input type="checkbox" name="tables[]" value="table03" > Table de 3<br>
-                <input type="checkbox" name="tables[]" value="table04"> Table de 4<br>
-                <input type="checkbox" name="tables[]" value="table05"> Table de 5<br>
-                <input type="checkbox" name="tables[]" value="table06"> Table de 6<br>
-                <input type="checkbox" name="tables[]" value="table07"> Table de 7<br>
-                <input type="checkbox" name="tables[]" value="table08"> Table de 8<br>
-                <input type="checkbox" name="tables[]" value="table09"> Table de 9<br>
-                <input type="checkbox" name="tables[]" value="table10"> Table de 10<br>
+                <input type="checkbox" name="tables[]" id="table02" value="table02" /> <label for="table02"> Table de 2</label><br>
+                <input type="checkbox" name="tables[]" id="table03" value="table03" /> <label for="table03">Table de 3</label><br>
+                <input type="checkbox" name="tables[]" id="table04" value="table04" /> <label for="table04">Table de 4</label><br>
+                <input type="checkbox" name="tables[]" id="table05" value="table05" /> <label for="table05">Table de 5</label><br>
+                <input type="checkbox" name="tables[]" id="table06" value="table06" /> <label for="table06">Table de 6</label><br>
+                <input type="checkbox" name="tables[]" id="table07" value="table07" /> <label for="table07">Table de 7</label><br>
+                <input type="checkbox" name="tables[]" id="table08" value="table08" /> <label for="table08">Table de 8</label><br>
+                <input type="checkbox" name="tables[]" id="table09" value="table09" /> <label for="table09">Table de 9</label><br>
+                <input type="checkbox" name="tables[]" id="table10" value="table10" /> <label for="table10">Table de 10</label><br>
             <br><br>
             <input id="bouton1" name="bouton" type="submit">
             <br>
